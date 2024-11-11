@@ -2,6 +2,8 @@
 #include <cmath>
 
 
+	/// the dual number class
+	/// SIZE is the number of independent variables
 template<std::size_t SIZE>
 struct DualNumbers
 {		/// the value or 0th derivative
