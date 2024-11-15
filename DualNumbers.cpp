@@ -6,7 +6,7 @@
 	/// SIZE is the number of independent variables
 template<std::size_t SIZE>
 struct DualNumbers
-{		/// the value or 0th derivative
+{		/// the value or 0th order derivative
 	double m_dValue;
 		/// the first order derivative wrt the independent variables
 	double m_adDer[SIZE];
